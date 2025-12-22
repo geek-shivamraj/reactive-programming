@@ -1,4 +1,4 @@
-package com.reactive.programming.pubsub.publisher;
+package com.reactive.programming.helper.pubsub.publisher;
 
 import org.reactivestreams.Publisher;
 import org.reactivestreams.Subscriber;

@@ -1,4 +1,4 @@
-package com.reactive.programming;
+package com.reactive.programming.helper;
 
 import com.github.javafaker.Faker;
 

@@ -1,4 +1,4 @@
-package com.reactive.programming;
+package com.reactive.programming.helper;
 
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;
