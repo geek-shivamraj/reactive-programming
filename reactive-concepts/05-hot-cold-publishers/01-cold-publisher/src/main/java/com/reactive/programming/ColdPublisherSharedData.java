@@ -17,7 +17,7 @@ public class ColdPublisherSharedData {
         // Below atomic integer is shared among the subscribers & it's not scoped per subscription.
         AtomicInteger atomicInteger = new AtomicInteger(0);
         var flux = Flux.create(fluxSink -> {
-            log.info("Invoked!!");
+            log.info("Invoked fluxSink: {}", fluxSink.hashCode());
             for (int i = 0; i < 3; i++) {
                 fluxSink.next(atomicInteger.getAndIncrement());
             }
