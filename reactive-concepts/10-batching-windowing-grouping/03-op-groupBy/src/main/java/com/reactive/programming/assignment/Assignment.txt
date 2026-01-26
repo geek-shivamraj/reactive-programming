@@ -1,0 +1,20 @@
+
+record PurchaseOrder (String item, String category, Integer price){}
+
+// faker has "commerce()" to create this object with random values.
+
+- Let's imagine that we've an order stream though which we keep on getting the purchase orders events like every 200/500 ms.
+- We can use commerce faker to fill the purchase order
+- Business is interested in only 2 categories: Kids, Automotive
+
+Business Rule:
+    - Kids order
+        - add 1 free order for every kids order
+    - Automotive order
+        - add $100 to the price.
+
+Task: Implement above business rule.
+
+
+
+
