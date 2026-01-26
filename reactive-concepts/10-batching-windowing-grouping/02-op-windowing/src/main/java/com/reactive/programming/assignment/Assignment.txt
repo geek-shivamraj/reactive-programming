@@ -1,0 +1,5 @@
+
+Task: Create one directory called "section" & for every new window we're going to create one new txt file.
+    These file will log some events.
+
+

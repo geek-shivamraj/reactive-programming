@@ -1,0 +1,10 @@
+
+Task: Generate report - every 5 seconds - revenue made on those interested categories.
+
+Categories:
+    - Science fiction
+    - Fantasy
+    - Suspense/Thriller
+
+// faker has "book()" to create this object with random values
+record BookOrder (String genre, String title, Integer price) {}
