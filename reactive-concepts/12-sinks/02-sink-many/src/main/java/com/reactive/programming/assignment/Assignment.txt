@@ -1,0 +1,4 @@
+
+Implement a slack app/ microsoft teams app.
+
+Image we've 1 slack room, we add few members & they're having some conversation. So, whatever one member says all member needs to hear that.
