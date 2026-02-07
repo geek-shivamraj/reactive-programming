@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: resilience-functionality
+
+logging:
+  level:
+    root: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} | %msg%n"
