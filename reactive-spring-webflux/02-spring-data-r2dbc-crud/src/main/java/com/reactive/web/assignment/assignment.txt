@@ -1,0 +1,7 @@
+
+Add a method to fetch all the products based on the given price range.
+
+Check:
+    entity -> Product
+    repository -> ProductRepository
+    src/main/test/java -> ProductRepositoryTest
