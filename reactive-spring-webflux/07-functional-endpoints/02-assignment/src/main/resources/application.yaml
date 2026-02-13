@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: router-assignment
+
+logging:
+  level:
+    root: INFO
+    #org.springframework.r2dbc: DEBUG    # For logging R2DBC queries.
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} | %msg%n"
