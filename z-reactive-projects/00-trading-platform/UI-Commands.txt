@@ -1,0 +1,22 @@
+
+UI for Customer -1: http://localhost:8080/?customer=1
+UI for Customer -2: http://localhost:8080/?customer=2
+UI for Customer -3: http://localhost:8080/?customer=3
+
+Customer By Id: http://localhost:8080/customers/1
+
+Stock Price Stream: http://localhost:8080/stock/price-stream
+
+Trade (BUY): localhost: http://8080/customers/1/trade
+{
+    "ticker": "APPLE",
+    "action": "BUY",
+    "quantity": 2
+}
+
+Trade (BUY): localhost: http://8080/customers/1/trade
+{
+    "ticker": "GOOGLE",
+    "action": "SELL",
+    "quantity": 6
+}
